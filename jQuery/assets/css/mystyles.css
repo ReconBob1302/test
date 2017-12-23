@@ -1,0 +1,234 @@
+/*CSS Document*/
+@charset "utf-8";
+
+/*Beginning of Global CSS attributes and selectors*/
+
+html {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 1.5rem;
+	color: rgba(100,100,100,1.00) !important;
+	background-color: rgba(210,210,210,.90);	
+}
+#navigation.container.main-menu {
+	margin: 10px 0px 10px 0px;
+}
+nav.aside li.nav-li {
+	list-style: none;
+	text-align: center;
+	display: inline-block;
+	background-color: rgba(40,140,140,1.0);
+	width: 110px;
+	height: 40px;
+	margin-right: -6px;
+	padding: 5px 5px 5px 5px;
+	border-collapse: collapse;
+}
+li.nav-li a {
+	color: rgba(210,210,210,1.00) !important;
+}
+li.nav-li a:hover {
+	color: rgba(110,110,110,1.00) !important;
+	text-decoration: none;
+}
+#footer-wrapper.modal-footer {
+	font-size: .90em;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: rgba(210,210,210,1.00) !important;
+	background-color: rgba(140,140,140,1.0);
+	margin: 0px auto 0px auto;
+}
+#footer-inner.footer {
+
+}
+#footer-left {
+	float: left;
+	min-width: 200px;
+	width: 25%;
+	height: 90%;
+	min-height: 284px;
+	margin: 5px 0px 5px 20px;
+	padding: 0px 25px 10px 25px;
+	background-color: rgba(50,50,50,1.0);
+}
+#footer-left ul li {
+	list-style: none;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 2px 5px 2px 5px;
+	display: block;
+}
+#footer-left ul li:hover {
+	color: rgba(110,110,110,1.00) !important;
+}
+#footer-left ul li:last-of-type {
+	margin: 0px 0px 0px 0px;
+}
+#footer-center {
+	float: left;
+	min-width: 200px;
+	width: 25%;
+	height: 90%;
+	min-height: 284px;
+	margin: 5px 0px 5px 20px;
+	padding: 0px 25px 10px 25px;
+	background-color: rgba(90,90,90,1.00);
+}
+#footer-right {
+	float: left;
+	min-width: 200px;
+	width: 25%;
+	height: 90%;
+	min-height: 284px;
+	margin: 5px 20px 5px 20px;
+	padding: 0px 25px 10px 25px;
+	background-color: rgba(50,50,50,1.00);
+}
+
+/*End of global CSS attributes and selectors.*/
+
+/* Begin Media Queries Section. */
+@media screen and (max-width:992px) and (min-width:877px){
+
+}
+/*End of max-width 992px media query.*/
+
+
+
+
+
+
+
+@media screen and (max-width:900px) and (min-width:877px){
+
+}
+/*End of max-width 992px media query.*/
+
+
+
+
+@media screen and (max-width:876px) and (min-width:768px){
+
+}
+/*End of max-width 876px and min-width 768px media query.*/
+
+@media screen and (max-width:875px) and (min-width:125px){
+
+}
+/*End of max-width 875px and min-width 125px media query.*/
+
+@media screen and (max-width:790px) and (min-width:786px){
+
+}
+/*End of max-width 790px and min-width 786px media query.*/
+
+
+
+
+@media screen and (max-width:767px) and (min-width:125px){
+
+}
+/*End of max-width 767px media query.*/
+
+@media screen and (max-width:682px) and (min-width:125px){
+
+}
+
+/*Begin customized/adjusted bootstrap css.*/
+
+.btn {
+	display: inline-block !important;
+	padding: 0p !important;
+	margin: 0px -3px 0px 0px !important;
+	font-size: .875em !important;
+	font-weight: normal !important;
+	line-height: 1.42857143 !important;
+	text-align: center !important;
+	white-space: nowrap !important;
+	vertical-align: middle !important;
+	-ms-touch-action: manipulation !important;
+	touch-action: manipulation !important;
+	cursor: pointer !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+	background-image: none !important;
+	background-color: rgba(173,91,21,1.00)!important;
+	border: 1px solid rgba(128,67,16,1.00);
+	border-radius: 0px !important;
+	text-shadow: 0px 0px 0px transparent !important;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+	outline: 5px auto -webkit-focus-ring-color !important;
+	outline-offset: -2px !important;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+	color: rgba(242,197,158,1.00) !important;
+	text-decoration: underline !important;
+	font-weight: inherit !important;
+}
+.btn:active,
+.btn.active {
+	background-image: none !important;
+	outline: 0 !important;
+	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+    	box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125) !important;
+}
+.btn.disabled,
+.btn[disabled],
+fieldset[disabled] .btn {
+	cursor: not-allowed !important;
+	filter: alpha(opacity=65) !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	opacity: .65 !important;
+}
+.btn-default {
+	color: rgba(51,51,51,1.00) !important;
+}
+.btn-default:focus,
+.btn-default.focus {
+	color: rgba(51,51,51,1.00) !important;
+}
+.btn-default:hover {
+	color: rgba(242,197,158,1.00) !important;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+	color: rgba(51,51,51,1.00) !important;
+}
+.btn-default:active:hover,
+.btn-default.active:hover,
+.open > .dropdown-toggle.btn-default:hover,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default.focus {
+	color: rgba(51,51,51,1.00) !important;
+}
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+	background-image: none !important;
+}
+
+
+/*End customized/adjusted bootstrap css.*/
+/*End of file*/
